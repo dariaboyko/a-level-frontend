@@ -1,0 +1,12 @@
+.buttons{
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    height: 50px;
+    width: 100px;
+}
+.anime{
+    width: 500px;
+}
