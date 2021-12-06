@@ -16,3 +16,15 @@ null -  when we need an empty value.
 undefined - for unassigned or undefined values.
 symbol - unique and immutable primitive values.
 object - more complex data structure
+lecture4:
+Operators:
+arithmetic operators
+assignment operators
+comparison operators
+logical operators
+
+Type coercion:
+to string
+to number
+to boolean
+
