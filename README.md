@@ -6,6 +6,7 @@ Snake case (snake_case)
 «Змеиный регистр» — заменяет пробелы на символ подчеркивания.
 Kebab case (kebab-case)
 Его также называют spear-case, и он является стандартом в Lisp.
+
 lecture3:
 Data types:
 string - we can store 0 and more characters.
@@ -16,6 +17,7 @@ null -  when we need an empty value.
 undefined - for unassigned or undefined values.
 symbol - unique and immutable primitive values.
 object - more complex data structure
+
 lecture4:
 Operators:
 arithmetic operators
@@ -27,4 +29,26 @@ Type coercion:
 to string
 to number
 to boolean
+
+lecture5:
+String wrapper
+Strings methods:
+case changing
+searching substrings
+strings splitting
+replacing
+clearing
+
+Number wrapper
+Numbers methods:
+number constants
+number formatting
+
+lecture6:
+objects are structures to gather related data
+to get property/method use .propertyName or [‘propertyName’]
+with descriptors we can describe properties behavior
+to copy objects use Object.assign() or spread operator (...)
+all objects inherit properties and methods from prototypes
+
 
