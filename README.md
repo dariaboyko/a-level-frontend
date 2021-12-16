@@ -51,4 +51,14 @@ with descriptors we can describe properties behavior
 to copy objects use Object.assign() or spread operator (...)
 all objects inherit properties and methods from prototypes
 
+lecture7:
+arrays store ordered data
+each element in the array has its own index
+arrays methods:
+add elements with unshift(), push()
+delete elements shift(), pop()
+unite arrays contact(), spread operator (...), slice()
+check arrays some(), every()
+sort arrays with sort()
+arrays have superpower: forEach(), map(), filter(), reduce()
 
