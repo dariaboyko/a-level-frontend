@@ -62,3 +62,9 @@ check arrays some(), every()
 sort arrays with sort()
 arrays have superpower: forEach(), map(), filter(), reduce()
 
+lecture8:
+functions help to reuse and structure code
+function could get from 0 to ∞ arguments
+if we want to return something from function use return keyword
+arrow functions are shorter way to write functions
+we can get execution context using this
