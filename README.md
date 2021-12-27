@@ -68,3 +68,9 @@ function could get from 0 to ∞ arguments
 if we want to return something from function use return keyword
 arrow functions are shorter way to write functions
 we can get execution context using this
+
+lecture9:
+conditions: if-else, switch, ternary operator (?)
+loops: while, do…while, for (for…of, for…in)
+keyword continue - skips the iteration
+keyword break - stops the loop
