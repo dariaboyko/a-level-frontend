@@ -74,3 +74,10 @@ conditions: if-else, switch, ternary operator (?)
 loops: while, do…while, for (for…of, for…in)
 keyword continue - skips the iteration
 keyword break - stops the loop
+
+lecture10:
+JS was created to manipulate with HTML elements on the page
+With help of JS we can:
+get elements
+update them
+remove
