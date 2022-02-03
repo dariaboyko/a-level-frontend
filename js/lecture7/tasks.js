@@ -4,11 +4,11 @@ const findVowelsCount =(inputString) =>{
     return sortedArray.length;
 }
 const createArrayWithObjects =(arrayOfNames)=>{
-    let array=[];
-    arrayOfNames.forEach((element, index) => array[index] = {
+    const array = arrayOfNames.map((element, index) => ({
         name: element,
         id: Math.random()
-    })
+    }));
+
     return array;
 }
 const filterArray=(arr,conditionNumber)=>{
