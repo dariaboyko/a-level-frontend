@@ -32,7 +32,7 @@ Object.keys(citiesAndCountries).map(function(key) {
 const numbers=(array)=>{
     array.sort();
     let count=0;
-    if(array.length<4){ // 
+    if(array.length<4){ // why do you need this?
         console.log("Your array is too short.");
         return undefined;
     }
