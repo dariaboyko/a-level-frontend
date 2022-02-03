@@ -22,6 +22,19 @@ function searchSubstringAmount(initialString, searchingSubstring) {
         console.log("Error! Your string is not found.");
     }
     return count;
+
+    // one more possible option
+    // const arraySplittedBySearch = initialString.split(searchingSubstring);
+
+    // const arrayLength = arraySplittedBySearch.length;
+
+    // const count = arrayLength - 1;
+
+    // if (count === 0) {
+    //   console.log(`There is not "${searchingSubstring}" in the initial string.`);
+    // } else {
+    //   console.log(count);
+    // }
 }
 let initialString="Never gonna give you up. Never gonna let you down.";
 let searchingSubstring="Never";
