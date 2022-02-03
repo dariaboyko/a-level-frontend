@@ -1,12 +1,7 @@
 const nameOfDays = {ru:["Понедельник","Вторник","Среда","Четверг","Пятница","Суббота","Воскресенье"],en:["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]}
-const getNameOfDay =(day,lang)=>{
+const getNameOfDay =(day,lang = 'en')=>{
     day-=1;
-     if(lang ==="ru"){
-         console.log(nameOfDays.ru[day]);
-     }
-     else{
-         console.log(nameOfDays.en[day]);
-     }
+    namesOfDays[lang][day]
 }
 const citiesAndCountries = {
     Kyiv: 'Ukraine',
@@ -37,7 +32,7 @@ Object.keys(citiesAndCountries).map(function(key) {
 const numbers=(array)=>{
     array.sort();
     let count=0;
-    if(array.length<4){
+    if(array.length<4){ // 
         console.log("Your array is too short.");
         return undefined;
     }
