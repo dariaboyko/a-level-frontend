@@ -27,7 +27,7 @@ function getMinValueOfThree(value1,value2,value3){
             return value3;
         }
         else{
-            console.log("Your arguments are equal");
+            console.log("Some of your arguments are equal");
         }
     }
     else{
@@ -64,6 +64,12 @@ function getMinvalue(array){
     }
 
 }
+
+// consider to use this for many arguments
+// function getMinValue() {
+//   return Math.min(...arguments);
+// }
+
 function joinObjects(obj1,obj2){
     if(typeof(obj1)===typeof(obj2)&&typeof(obj2)==="object"){
         return Object.assign(obj1, obj2);
@@ -76,12 +82,16 @@ const user={
     name:'Jack',
     age: 18
 }
-Object.defineProperty(user, "String", {
-    value:`My name is ${user.name}, I am ${user.age}.`
-})
-Object.defineProperty(user, "number", {
-    value:user.age
-})
+Object.defineProperty(user, 'toString', {
+    enumerable: false, // enumerable is 'false' by default
+    value: function () {
+        return 'My name is' + this.name + ', ' + 'I am ' + this.age;
+    }
+});
+
+for (var key in user) console.log(key);
+
+
 console.log("Task1");
 console.log(getMinValueOfTwo(-2,8));
 console.log(getMinValueOfThree(9,1,2));
@@ -89,5 +99,4 @@ console.log(getMinvalue([1,6,2,7,0]));
 console.log("Task2");
 console.log(joinObjects({name:'daria'},{age:18}));
 console.log("Task3");
-console.log("String concatenation: "+user.String);
-console.log(user.number*10);
+console.log('Hello! ' + user); // 'Hello! My name isJack, I am 18'
